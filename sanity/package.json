@@ -1,0 +1,29 @@
+{
+  "name": "sanity",
+  "version": "1.0.0",
+  "description": "Sanity Studio for Nossa Digital",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "lint": "sanity lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@sanity/base": "^2.36.2",
+    "@sanity/cli": "^4.10.2",
+    "@sanity/core": "^2.36.2",
+    "@sanity/desk-tool": "^2.36.2",
+    "@sanity/image-url": "^1.2.0",
+    "@sanity/types": "^4.10.2",
+    "styled-components": "^6.1.19"
+  }
+}
